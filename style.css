@@ -1,69 +1,190 @@
-/* General Styles */
-body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0;
-    padding: 20px;
-    background-color: #f0f0f0;
+.container {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0;
 }
-
-h1 {
-    color: #333;
-    margin-bottom: 20px;
+user agent stylesheet
+div {
+    display: block;
+    unicode-bidi: isolate;
 }
-
-/* Marker Styles */
+.red {
+    background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+    box-shadow: 0 0 20px 0 rgba(83, 14, 14, 0.8);
+}
 .marker {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px;
-    width: 80px;
+    width: 200px;
+    height: 25px;
+    margin: 10px auto;
 }
-
-/* Cap Styles */
-.marker-cap {
-    width: 50px;
-    height: 20px;
-    border-radius: 5px;
-    margin-bottom: 5px;
+user agent stylesheet
+div {
+    display: block;
+    unicode-bidi: isolate;
 }
-
-/* Body Styles */
-.marker-body {
+.cap, .sleeve {
+    display: inline-block;
+}
+.cap {
     width: 60px;
-    height: 150px;
-    border-radius: 10px;
+    height: 25px;
 }
-
-/* Red Marker */
-.red-marker .red-cap {
-    background-color: red;
+user agent stylesheet
+div {
+    /* display: block; */
+    unicode-bidi: isolate;
 }
-
-.red-marker .red-body {
-    background-color: rgb(207, 95, 95);
-    opacity: 0.8;
+.cap, .sleeve {
+    display: inline-block;
 }
-
-/* Green Marker */
-.green-marker .green-cap {
-    background-color: green;
+.sleeve {
+    width: 110px;
+    height: 25px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-left: 10px double rgba(0, 0, 0, 0.75);
 }
-
-.green-marker .green-body {
-    background-color: rgb(150, 211, 150);
-    opacity: 0.8;
+user agent stylesheet
+div {
+    /* display: block; */
+    unicode-bidi: isolate;
 }
-
-/* Blue Marker */
-.blue-marker .blue-cap {
-    background-color: blue;
+.red {
+    background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+    box-shadow: 0 0 20px 0 rgba(83, 14, 14, 0.8);
 }
+.marker {
+    width: 200px;
+    height: 25px;
+    margin: 10px auto;
+}
+user agent stylesheet
+div {
+    display: block;
+    unicode-bidi: isolate;
+} 
+.green {
+    background: linear-gradient(#55680D, #71F53E, #116C31);
+    box-shadow: 0 0 20px 0 #3B7E20CC;
+}
+.marker {
+    width: 200px;
+    height: 25px;
+    margin: 10px auto;
+}
+user agent stylesheet
+div {
+    display: block;
+    unicode-bidi: isolate;
+} 
+.cap, .sleeve {
+    display: inline-block;
+}
+.cap {
+    width: 60px;
+    height: 25px;
+}
+user agent stylesheet
+div {
+    /* display: block; */
+    unicode-bidi: isolate;
+}
+.cap, .sleeve {
+    display: inline-block;
+}
+.sleeve {
+    width: 110px;
+    height: 25px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-left: 10px double rgba(0, 0, 0, 0.75);
+}
+user agent stylesheet
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+.green {
+    background: linear-gradient(#55680D, #71F53E, #116C31);
+    box-shadow: 0 0 20px 0 #3B7E20CC;
+}
+.marker {
+    width: 200px;
+    height: 25px;
+    margin: 10px auto;
+}
+user agent stylesheet
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+.blue {
+    background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+    box-shadow: 0 0 20px 0 blue;
+}
+.marker
+.marker {
+    width: 200px;
+    height: 25px;
+    margin: 10px auto;
+}
+user agent stylesheet
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+.cap, .sleeve {
+    display: inline-block;
+}
+.cap {
+    width: 60px;
+    height: 25px;
+}
+user agent stylesheet
+div {
+    display: block;
+    unicode-bidi: isolate;
+} 
+.cap, .sleeve {
+    display: inline-block;
+}
+.sleeve {
+    width: 110px;
+    height: 25px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-left: 10px double rgba(0, 0, 0, 0.75);
+}
+user agent stylesheet
+div {
+    /* display: block; */
+    unicode-bidi: isolate;
+} 
+.marker {
+    width: 200px;
+    height: 25px;
+    margin: 10px auto;
+}
+user agent stylesheet
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+.container {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0;
+}
+user agent stylesheet
+div {
+    display: block;
+    unicode-bidi: isolate;
+} 
+body {
+    display: block;
+    margin: 8px;
+} 
 
-.blue-marker .blue-body {
-    background-color: rgb(130, 130, 190);
-    opacity: 0.8;
+user agent stylesheet
+:root {
+    view-transition-name: root;
+}
+user agent stylesheet
+html {
+    display: block;
 }
