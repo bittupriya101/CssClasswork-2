@@ -44,7 +44,7 @@ h1 {
 }
 
 .red-marker .red-body {
-    background-color: red;
+    background-color: rgb(207, 95, 95);
     opacity: 0.8;
 }
 
@@ -54,7 +54,7 @@ h1 {
 }
 
 .green-marker .green-body {
-    background-color: green;
+    background-color: rgb(150, 211, 150);
     opacity: 0.8;
 }
 
@@ -64,6 +64,6 @@ h1 {
 }
 
 .blue-marker .blue-body {
-    background-color: blue;
+    background-color: rgb(130, 130, 190);
     opacity: 0.8;
 }
